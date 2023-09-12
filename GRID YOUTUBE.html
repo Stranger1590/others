@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID PRACTICE</title>
+    <style>
+.MAIbox {
+    position: relative;
+    width: 350px;
+    height: 500ox;
+    border-radius: 20px;
+    display: inline-block;
+}
+.img {
+height: 200px;
+width: 100%;
+border-radius: 20px 20px 0px 0px ;
+}
+.textgrid {
+    display: inline-block;
+}
+.text {
+    margin:0px;
+    color:white;
+    font-size: 20px;
+    font-family: roboto;
+    font-weight: 300;
+    color: rgb(17, 17, 17);
+    width: 280px;
+    display: inline-block;
+    
+}
+.profile {
+    width: 50px;
+    border-radius: 100%;
+    height: 50px;
+    
+}
+.stats {
+    color: rgb(116, 116, 116);
+    font-size: 14px;
+    font-family: roboto;
+}
+.author {
+    color: rgb(116, 116, 116);
+    font-size: 14px;
+}
+.imgnew {
+    height: 200px;
+    width: 100%;
+}
+.grid {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+}
+    </style>
+</head>
+<body>
+    <div class="MAIbox">
+       <div class="imgnew"><img class="img" src="C:\Users\User\Desktop\HTML CSS\Picture\thumbnail-1.webp">
+        </div>
+        <div class="grid">
+        <div class="profile-grid">
+        <img class="profile" src="C:\Users\User\Desktop\HTML CSS\Picture\channel-1.jpeg">
+        
+        </div>
+        <div class="video-info">
+            <p class="text">Talking Tech and AI with Google CEO Sundar Pichai!</p>
+        <div>
+        <p class="stats">3.4M views · 6 months ago</p>
+        <p class="author">Marques Brownlee</p>
+    </div>
+        </div>
+    </div>
+    </div>
+</body>
+</html>
